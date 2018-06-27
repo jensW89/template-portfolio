@@ -1,0 +1,105 @@
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-image{
+    width: 500px;
+    height: 500px;
+    margin: 10px 25px 10px 25px;
+    border-radius: 50%;
+    background-image: url(me.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-description {
+    font-size: 2em;
+    margin: 10px 25px 10px 25px;
+    text-align: center;
+}
+
+/* Full HD */
+@media screen and (min-width: 1800px) and (max-width: 2000px){
+    .banner-description {
+        font-size: 2em;
+    }
+}
+
+/* Retina display */
+@media screen and (min-width: 1400px) and (max-width: 1800px){
+    .banner-description {
+        font-size: 2em;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1400px){
+    .banner-description {
+        font-size: 2em;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .banner-description {
+        font-size: 2em;
+    }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .banner-description {
+        font-size: 1.1em;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .profile-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .banner-description {
+        font-size: 0.9em;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .profile-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-height: 450px) and (max-width: 750px){
+    .banner-description {
+        font-size: 1.0em;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .profile-image{
+        width: 200px;
+        height: 200px;
+    }
+}

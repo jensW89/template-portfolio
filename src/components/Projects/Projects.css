@@ -1,0 +1,17 @@
+.projects-overview-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.projects-headline {
+    font-size: 2.5em;
+    color: #2288CC;
+}

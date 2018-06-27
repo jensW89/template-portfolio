@@ -1,0 +1,30 @@
+.project-links {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.project-links:hover {
+    color: snow;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px; 
+}
+
+.project-image {
+    width: 250px;
+    height: 250px;
+    background-image: url(../Banner/me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-description {
+    width: 250px;
+    text-align: center;
+    background-color: rgb(49, 50, 51);
+}

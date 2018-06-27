@@ -1,0 +1,8 @@
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #e5e3e3;
+} 
