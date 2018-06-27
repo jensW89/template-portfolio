@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-You can find the most recent version the guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+You can find the most recent version of the guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
 
@@ -22,8 +22,8 @@ Use the common npm commands:
 
 ## Edit content
 
-Most content is summarized in one component (`src/App.js`). Edit the properties of the react component. The set of skills is collected in three Groups (Disciplin): `FRONTEND, BACKEND and METHODOLOGIES`. Only edit the `description` of a disciplin. 
-If you do not want to describe a skill set of a discipline, then delete the whole object.
+Most content is summarized in one component (`src/App.js`). Edit the properties of the react component. The set of skills is collected in three Groups (Disciplin): `FRONTEND, BACKEND and METHODOLOGIES`. Edit the `description` of a disciplin. 
+If you don't want to describe a skill set of a discipline, delete the whole object.
 
 ```js
 {
@@ -56,7 +56,7 @@ The profile image is managed in the banner component (`src/components/Banner`). 
 
 ### Change or add Projects
 
-All Projects are managed in the projects component (`src/components/Projects`). Add or delete any number of `Project` components. All images should be placed in the `images` folder.
+All projects are managed in the projects component (`src/components/Projects`). Add or delete any number of `Project` components. All images should be placed in the `images` folder.
 
 ```js
 {
@@ -90,7 +90,7 @@ Use the common npm command:
 
 * `npm test`
 
-Jest creates a snapshot test (`src/__snapshots__/storyshots.test.js.snap`) from all `stories` . To update the the snapshot test use `npm test -u`
+Jest creates a snapshot test (`src/__snapshots__/storyshots.test.js.snap`) from all `stories`. To update the snapshot test use `npm test -u`
 
 ## Deploy
 
