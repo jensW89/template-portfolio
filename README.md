@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/martiL/portfolio-code.svg?branch=master)](https://travis-ci.org/martiL/portfolio-code)
+[![Build Status](https://travis-ci.org/martiL/template-portfolio.svg?branch=master)](https://travis-ci.org/martiL/template-portfolio)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

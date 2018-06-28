@@ -24,7 +24,9 @@ exports[`Storyshots Banner Banner with background image and description 1`] = `
         >
           Martin Lux
         </h1>
-        <p />
+        <p>
+          Full stack developer
+        </p>
         <p>
           Engineer (M.Sc.)
         </p>
@@ -243,7 +245,7 @@ exports[`Storyshots Banner Banner with background image and description 1`] = `
                     <span
                       style={Object {}}
                     >
-                      favovriteSkill
+                      favouriteSkill
                     </span>
                     <span>
                       =
@@ -448,7 +450,7 @@ exports[`Storyshots Banner Banner with background image and description 1`] = `
                   <td
                     className="css-1ygfcef"
                   >
-                    favovriteSkill
+                    favouriteSkill
                   </td>
                   <td
                     className="css-1ygfcef"
@@ -552,7 +554,7 @@ exports[`Storyshots Contact Contact component with icons 1`] = `
       >
         <a
           className="contact-links"
-          href={undefined}
+          href="mailto:martiluax@gmail.com"
           rel="noopener noreferrer"
         >
           <svg
@@ -578,7 +580,7 @@ exports[`Storyshots Contact Contact component with icons 1`] = `
         </a>
         <a
           className="contact-links"
-          href={undefined}
+          href="https://twitter.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -605,7 +607,7 @@ exports[`Storyshots Contact Contact component with icons 1`] = `
         </a>
         <a
           className="contact-links"
-          href={undefined}
+          href="https://linkedin.com"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -803,7 +805,90 @@ exports[`Storyshots Contact Contact component with icons 1`] = `
                   &lt;
                   Contact
                 </span>
-                <span />
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      linkedInUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://linkedin.com
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      twitterUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://twitter.com/
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      mail
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          mailto:martiluax@gmail.com
+                        </span>
+                        "
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
                 <span
                   style={
                     Object {
@@ -863,9 +948,116 @@ exports[`Storyshots Contact Contact component with icons 1`] = `
               Contact
               " Component
             </h2>
-            <small>
-              No propTypes defined!
-            </small>
+            <table
+              className="css-1ytzlk7"
+            >
+              <thead>
+                <tr>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    property
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    propType
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    required
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    default
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    linkedInUrl
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    twitterUrl
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    mail
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -889,7 +1081,7 @@ exports[`Storyshots Header Header component with icons 1`] = `
     >
       <a
         className="header-links"
-        href={undefined}
+        href="https://github.com/"
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -1086,7 +1278,36 @@ exports[`Storyshots Header Header component with icons 1`] = `
                   &lt;
                   Header
                 </span>
-                <span />
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      githubUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://github.com/
+                        </span>
+                        "
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
                 <span
                   style={
                     Object {
@@ -1146,9 +1367,66 @@ exports[`Storyshots Header Header component with icons 1`] = `
               Header
               " Component
             </h2>
-            <small>
-              No propTypes defined!
-            </small>
+            <table
+              className="css-1ytzlk7"
+            >
+              <thead>
+                <tr>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    property
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    propType
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    required
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    default
+                  </th>
+                  <th
+                    className="css-d52hbj"
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    githubUrl
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -1175,7 +1453,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
       >
         <a
           className="header-links"
-          href={undefined}
+          href="https://github.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -1218,7 +1496,9 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
             >
               Martin Lux
             </h1>
-            <p />
+            <p>
+              Full stack developer
+            </p>
             <p>
               Engineer (M.Sc.)
             </p>
@@ -1445,7 +1725,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
           >
             <a
               className="contact-links"
-              href={undefined}
+              href="mailto:martiluax@gmail.com"
               rel="noopener noreferrer"
             >
               <svg
@@ -1471,7 +1751,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
             </a>
             <a
               className="contact-links"
-              href={undefined}
+              href="https://twitter.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -1498,7 +1778,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
             </a>
             <a
               className="contact-links"
-              href={undefined}
+              href="https://linkedin.com"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -1737,7 +2017,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
                     <span
                       style={Object {}}
                     >
-                      favovriteSkill
+                      favouriteSkill
                     </span>
                     <span>
                       =
@@ -1814,6 +2094,126 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
                           }
                         >
                           Agile team player
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      githubUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://github.com/
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      linkedInUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://linkedin.com
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      twitterUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://twitter.com/
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      mail
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          mailto:martiluax@gmail.com
                         </span>
                         "
                       </span>
@@ -2220,6 +2620,106 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
                   <td
                     className="css-1ygfcef"
                   >
+                    linkedInUrl
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    twitterUrl
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    mail
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    githubUrl
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
                     skillSet
                   </td>
                   <td
@@ -2251,7 +2751,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
 </div>
 `;
 
-exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
+exports[`Storyshots Project Example - Description of Redux) 1`] = `
 <div>
   <div
     style={
@@ -2263,7 +2763,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
   >
     <a
       className="project-links"
-      href="https://openindy.github.io/posts/about/"
+      href="https://redux.js.org/advanced"
       rel="noopener noreferrer"
       target="_blank"
     >
@@ -2286,7 +2786,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
         >
           <div>
             <h1>
-              OpenIndy
+              Redux
             </h1>
           </div>
         </div>
@@ -2405,7 +2905,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
               }
             }
           >
-            Example - Description of OpenIndy Project)
+            Example - Description of Redux)
           </h2>
         </div>
         <div
@@ -2485,7 +2985,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
                             }
                           }
                         >
-                          OpenIndy
+                          Redux
                         </span>
                         "
                       </span>
@@ -2539,7 +3039,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
                             }
                           }
                         >
-                          https://openindy.github.io/posts/about/
+                          https://redux.js.org/advanced
                         </span>
                         "
                       </span>
@@ -2669,6 +3169,31 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
                     className="css-1ygfcef"
                   >
                     link
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    yes
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    image
                   </td>
                   <td
                     className="css-1ygfcef"
@@ -3117,6 +3642,31 @@ exports[`Storyshots Project Project component to describe a software project) 1`
                     className="css-1ygfcef"
                   >
                     link
+                  </td>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    <span />
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    yes
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  >
+                    -
+                  </td>
+                  <td
+                    className="css-d52hbj"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="css-1ygfcef"
+                  >
+                    image
                   </td>
                   <td
                     className="css-1ygfcef"
