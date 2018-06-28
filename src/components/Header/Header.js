@@ -1,9 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Header.css';
 
 import FaGitHub from 'react-icons/lib/fa/github';
 
-const Header = ({githubUrl}) => (
+const Header = ({
+    githubUrl
+}) => (
     <header className="app-header">
         <a 
             className="header-links" 
@@ -15,5 +18,9 @@ const Header = ({githubUrl}) => (
         </a>
     </header>
   )
+
+Header.propTypes = {
+    githubUrl: PropTypes.string
+};   
 
 export default Header;

@@ -21,7 +21,7 @@ const Banner = ({
 
 Banner.propTypes = {
   name: PropTypes.string,
-  favovriteSkill: PropTypes.string,
+  favouriteSkill: PropTypes.string,
   education: PropTypes.string,
   socialSkill: PropTypes.string
 }; 

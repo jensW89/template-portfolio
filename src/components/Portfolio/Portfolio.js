@@ -48,6 +48,10 @@ Portfolio.propTypes = {
   favovriteSkill: PropTypes.string,
   education: PropTypes.string,
   socialSkill: PropTypes.string,
+  linkedInUrl: PropTypes.string,
+  twitterUrl: PropTypes.string,
+  mail: PropTypes.string,
+  githubUrl: PropTypes.string,
   skillSet: PropTypes.arrayOf(
     PropTypes.shape({
       disciplin: PropTypes.string,

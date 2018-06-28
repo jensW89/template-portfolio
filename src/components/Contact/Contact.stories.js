@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import { withKnobs } from '@storybook/addon-knobs/react';
+import { withKnobs, text } from '@storybook/addon-knobs/react';
 import { withInfo } from '@storybook/addon-info';
 
 import Contact from './Contact';
@@ -12,4 +12,8 @@ stories.addDecorator(withKnobs);
 
 stories
   .add('Contact component with icons', () => (
-     <Contact />))
+     <Contact 
+      linkedInUrl={text("linkedInUrl", "https://linkedin.com")}
+      twitterUrl={text("twitterUrl", "https://twitter.com/")}
+      mail={text("mail", "mailto:martiluax@gmail.com")}
+     />))

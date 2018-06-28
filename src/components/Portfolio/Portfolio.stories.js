@@ -14,9 +14,13 @@ stories
   .add('The whole portfolio website', () => (
     <Portfolio 
         name={text("name", "Martin Lux")}
-        favovriteSkill={text("favovriteSkill", "Full stack developer")}
+        favouriteSkill={text("favouriteSkills", "Full stack developer")}
         education={text("education", "Engineer (M.Sc.)")}
         socialSkill={text("socialSkill", "Agile team player")}
+        githubUrl={text("githubUrl", "https://github.com/")}
+        linkedInUrl={text("linkedInUrl", "https://linkedin.com")}
+        twitterUrl={text("twitterUrl", "https://twitter.com/")}
+        mail={text("mail", "mailto:martiluax@gmail.com")}
         skillSet={[
             {
                 disciplin:"FRONTEND",

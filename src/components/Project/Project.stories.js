@@ -21,10 +21,10 @@ stories
 ))
 
 stories
-  .add('Example - Description of OpenIndy Project)', () => (
+  .add('Example - Description of Redux)', () => (
     <Project 
-        name={text("name", "OpenIndy")}
+        name={text("name", "Redux")}
         image={Background}
-        link={text("link", 'https://openindy.github.io/posts/about/')}
+        link={text("link", 'https://redux.js.org/advanced')}
     />
 ))

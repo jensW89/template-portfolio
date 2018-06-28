@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Contact.css';
 
 import FaTwitter from 'react-icons/lib/fa/twitter';
@@ -39,5 +40,11 @@ const Contact = ({
         </div>
     </div>
   )
+
+Contact.propTypes = {
+    linkedInUrl: PropTypes.string,
+    twitterUrl: PropTypes.string,
+    mail: PropTypes.string
+};   
 
 export default Contact;

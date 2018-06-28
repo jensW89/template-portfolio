@@ -14,7 +14,7 @@ stories
   .add('Banner with background image and description', () => (
     <Banner 
         name={text("name", "Martin Lux")}
-        favovriteSkill={text("favovriteSkill", "Full stack developer")}
+        favouriteSkill={text("favouriteSkill", "Full stack developer")}
         education={text("education", "Engineer (M.Sc.)")}
         socialSkill={text("socialSkill", "Agile team player")}
     />

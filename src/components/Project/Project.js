@@ -35,6 +35,7 @@ const Project = ({
 Project.propTypes = {
     name: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired
 }; 
 
 export default Project;
