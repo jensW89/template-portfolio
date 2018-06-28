@@ -6,12 +6,16 @@ You can find the most recent version of the guide [here](https://github.com/face
 
 ## Table of Contents
 
+- [What is it ?](#what-is-it)
 - [Install and run](#install-and-run)
 - [Edit content](#edit-content)
 - [Storybook](#storybook)
 - [Test](#test)
 - [Deploy](#deploy)
 
+## What is it ?
+
+A simple portfolio website built with [react](https://reactjs.org/). It is organized in components and therefore easy to customize. There are also snapshot tests and a way to automatically deploy the website on GitHub-Pages. For beginners also a good project to learn react and storybook :)
 
 ## Install and run
 
