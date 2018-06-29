@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import { storiesOf } from '@storybook/react';
-import { withKnobs, text } from '@storybook/addon-knobs/react';
-import { withInfo } from '@storybook/addon-info';
+import { storiesOf } from "@storybook/react";
+import { withKnobs, text } from "@storybook/addon-knobs/react";
+import { withInfo } from "@storybook/addon-info";
 
-import Header from './Header';
+import Header from "./Header";
 
-const stories = storiesOf('Header', module);
-stories.addDecorator((story, context) => withInfo('common info')(story)(context));
+const stories = storiesOf("Header", module);
+stories.addDecorator((story, context) =>
+  withInfo("common info")(story)(context)
+);
 stories.addDecorator(withKnobs);
 
-stories
-  .add('Header component with icons', () => (
-     <Header 
-        githubUrl={text("githubUrl", "https://github.com/")}
-     />))
+stories.add("Header component with icons", () => (
+  <Header githubUrl={text("githubUrl", "https://github.com/")} />
+));
