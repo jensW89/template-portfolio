@@ -1,16 +1,7 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
 
 import Portfolio from "./components/Portfolio/Portfolio";
 class App extends Component {
-  constructor() {
-    super();
-    // Add your tracking ID created from https://analytics.google.com/analytics/web/#home/
-    ReactGA.initialize("UA-121728937-2", { testMode: true });
-    // This just needs to be called once since we have no routes.
-    ReactGA.pageview(window.location.pathname);
-  }
-
   render() {
     return (
       <Portfolio

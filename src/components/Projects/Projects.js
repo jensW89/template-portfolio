@@ -16,7 +16,7 @@ const Projects = () => (
       />
       <Project
         name="Awesome App"
-        link="https://500px.com/martinlulu"
+        link="https://redux.js.org/"
         image={AwesomeApp}
       />
     </div>
