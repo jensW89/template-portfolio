@@ -1,11 +1,12 @@
 {
   "name": "template-portfolio",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://martiL.github.io/template-portfolio",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-ga": "^2.5.3",
     "react-icons": "^2.2.7",
     "react-scripts": "1.1.1"
   },
