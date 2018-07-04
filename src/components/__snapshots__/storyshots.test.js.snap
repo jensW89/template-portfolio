@@ -1681,7 +1681,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
             </a>
             <a
               className="project-links"
-              href="https://500px.com/martinlulu"
+              href="https://redux.js.org/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -3751,7 +3751,7 @@ exports[`Storyshots Projects Overview of my projects 1`] = `
         </a>
         <a
           className="project-links"
-          href="https://500px.com/martinlulu"
+          href="https://redux.js.org/"
           rel="noopener noreferrer"
           target="_blank"
         >
