@@ -1,7 +1,7 @@
 {
   "name": "template-portfolio",
   "version": "0.2.4",
-  "homepage": "https://martiL.github.io/template-portfolio",
+  "homepage": "https://jensW89.github.io/template-portfolio",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",

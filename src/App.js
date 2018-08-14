@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <Portfolio
-        name="John Doe"
+        name="Jens Wambach"
         favouriteSkill="Full stack developer"
         education="Engineer (M.Sc.)"
         socialSkill="Agile team player"
@@ -16,11 +16,11 @@ class App extends Component {
         skillSet={[
           {
             disciplin: "FRONTEND",
-            description: "HTML5, ES6, SASS, React, Redux, Storybook, Jest"
+            description: "HTML5, CSS, Javascript"
           },
           {
             disciplin: "BACKEND",
-            description: "Node.js, Java Spring, MongoDB"
+            description: "C++, Qt"
           },
           {
             disciplin: "METHODOLOGIES",
